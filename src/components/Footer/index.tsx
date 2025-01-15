@@ -27,7 +27,7 @@ export const Footer = (): JSX.Element => {
           </div>
         </div>
         <div>
-          <div className='divIcons'>
+          <div className='divIconsFooter'>
             <div className="backgroundIcon">
               <a className='IconsSocial'
                 href='https://github.com/Alonsogio'

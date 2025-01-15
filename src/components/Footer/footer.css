@@ -63,9 +63,11 @@ footer {
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.divIcons {
+.divIconsFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 29px;
-  margin-left: 0px;
 }
 
 .backgroundIcon:hover {
