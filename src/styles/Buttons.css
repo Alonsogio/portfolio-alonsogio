@@ -1,0 +1,24 @@
+.StyleBtn {
+  background-color: var(--primary-color);
+  padding: 1rem 2.5rem;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0px;
+  color: var(--white-color);
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+  }
+}
+
+.StyleBtn:hover {
+  background-color: var(--white-color);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}

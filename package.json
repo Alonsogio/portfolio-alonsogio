@@ -1,0 +1,35 @@
+{
+  "name": "portfolio-alonsogio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@mui/material": "^6.3.1",
+    "@tsparticles/react": "^3.0.0",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^10.12.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-simple-typewriter": "^5.0.1",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^3.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.1.0",
+    "typescript": "^5.7.2",
+    "vite": "^4.4.9"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

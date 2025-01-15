@@ -1,0 +1,173 @@
+.Skills {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container-skills {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.divH1andP {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px;
+  background-color: var(--pink-color);
+  border-radius: 397px;
+  width: 635px;
+  height: 635px;
+  justify-content: center;
+  position: relative;
+  left: 120px;
+}
+
+.DivSkills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 174px 0px;
+}
+
+.mySkills {
+  color: var(--secundary-color);
+  font-size: 3.75rem;
+  line-height: 100.5%;
+}
+
+.pontoMySkills {
+  color: var(--primary-color);
+  font-size: 124px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.descriptionSkills {
+  width: 78%;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--gray-color1);
+}
+
+.repartidorbranco {
+  background-image: url(src/public/assets/img/repartidorbranco.png);
+  width: 100%;
+  height: 93px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 5px;
+  position: relative;
+}
+
+@media (max-width: 1859px) {
+  .DivSkills {
+    min-width: 700px;
+    max-width: 997px;
+  }
+
+  .divH1andP {
+    width: 440px;
+    height: 440px;
+  }
+
+  .descriptionSkills {
+    font-size: 1.3rem;
+  }
+
+  .mySkills {
+    font-size: 2.75rem;
+  }
+
+  .pontoMySkills {
+    font-size: 91px;
+  }
+
+}
+
+@media (max-width: 1581px) {
+  .DivSkills {
+    min-width: 500px;
+    max-width: 756px;
+  }
+
+  .divH1andP {
+    width: 485px;
+    height: 485px;
+  }
+}
+
+@media (max-width: 1494px) {
+  .divH1andP {
+    width: 400px;
+    height: 400px;
+  }
+
+  .descriptionSkills {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1356px) {
+  .divH1andP {
+    width: 80%;
+    height: 66px;
+    border-radius: 0px;
+    background-color: var(--white-color);
+    left: 0;
+    margin: 0;
+    padding: 0;
+    gap: 20px
+  }
+
+  .Skills {
+    flex-direction: column;
+  }
+
+  .DivSkills {
+    margin: 20px 0px 174px;
+    min-width: 90%;
+    max-width: 90%;
+  }
+
+  .descriptionSkills {
+    font-size: 1rem;
+    width: 86%;
+    color: #969494;
+  }
+
+
+  .pontoMySkills {
+    font-size: 66px;
+    height: 16px;
+  }
+
+  .mySkills {
+    font-size: 2.3rem;
+  }
+
+  .card-container-skills {
+    flex-direction: column;
+    margin-top: 246px;
+    gap: 114px;
+  }
+}
+
+@media (max-width: 410px) {
+  .repartidorbranco {
+    bottom: 89px;
+  }
+}

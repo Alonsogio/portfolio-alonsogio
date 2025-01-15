@@ -1,0 +1,66 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 46px;
+}
+
+.ponto {
+  color: var(--primary-color);
+  font-size: 59px;
+  height: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.BtnsNav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.MenuIcon {
+  display: none;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.BtnsNav.active {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  top: 80px;
+  background-color: var(--white-color);
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 663px) {
+  .BtnsNav {
+    display: none;
+  }
+
+  .DivHi1 {
+    display: none;
+  }
+
+  .IconMenu {
+    color: var(--white-color);
+  }
+
+  .optionsMenu {
+    color: var(--primary-color);
+  }
+
+  .MenuIcon {
+    display: block;
+  }
+
+  .BtnsNav.active {
+    display: flex;
+    z-index: 9999;
+  }
+}

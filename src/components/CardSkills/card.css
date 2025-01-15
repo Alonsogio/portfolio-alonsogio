@@ -1,0 +1,96 @@
+.card {
+  width: 190px;
+  padding: 20px 22px;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 28%);
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  position: relative;
+  border-radius: 20px 20px 20px 0px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  background-color: var(--primary-color);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .card-icon {
+  color: var(--white-color);
+}
+
+.card:hover .card-text {
+  color: var(--white-color);
+}
+
+.card:hover .progress-bar {
+  background-color: rgb(164, 162, 162);
+}
+
+.card:hover .progress-bar-container {
+  background-color: var(--white-color);
+}
+
+.card:hover .percentage-text {
+  color: var(--white-color);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.card-icon {
+  font-size: 56px;
+  color: var(--primary-color);
+  display: flex;
+}
+
+.card-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 10px;
+  background-color: var(--gray-color1);
+  border-radius: 5px;
+  overflow: hidden;
+
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  transition: width 1.5s ease-in-out;
+
+}
+
+.percentage-text {
+  font-size: 11px;
+  color: var(--primary-color);
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 0px;
+}
+
+@media (max-width: 1237px) {
+  .card-icon {
+    font-size: 48px;
+  }
+
+  .card {
+    width: 153px;
+  }
+}

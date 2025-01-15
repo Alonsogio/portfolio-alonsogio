@@ -1,0 +1,498 @@
+.container-projects {
+  background-image: url(src/public/assets/img/backgroundPJ.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: center;
+}
+
+.slider-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pontoProjeto {
+  color: var(--pink-color);
+  font-size: 139px;
+  height: 136px;
+  display: flex;
+  align-items: center;
+}
+
+.slider-images {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  width: 100%;
+  justify-content: center;
+  padding: 98px;
+}
+
+.slider-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.slider-img {
+  width: 110px;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.7s ease;
+}
+
+.slider-images .slider-img:first-child,
+.slider-images .slider-img:last-child {
+  height: 480px;
+}
+
+.slider-images .slider-img:nth-child(2),
+.slider-images .slider-img:nth-child(6) {
+  height: 560px;
+}
+
+.slider-images .slider-img:nth-child(3),
+.slider-images .slider-img:nth-child(4),
+.slider-images .slider-img:nth-child(5) {
+  height: 665px;
+}
+
+.NameProject {
+  font-family: "Jost", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--pink-color);
+  position: absolute;
+  top: 50%;
+  left: -30%;
+  transform: rotate(270deg);
+  transition: 0.7s ease;
+}
+
+.details {
+  width: 0;
+  position: absolute;
+  bottom: 43px;
+  left: 43px;
+}
+
+.details h2 {
+  font-family: "Jost", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 44px;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.7s ease;
+  display: none;
+}
+
+.details p {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 33px;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.7s ease;
+  display: none;
+}
+
+.slider-img.active {
+  width: 766px !important;
+  height: 750px !important;
+}
+
+.slider-img.active .details {
+  width: 90%;
+}
+
+.slider-img.active .descriptionjob {
+  display: flex;
+}
+
+.slider-img.active .divInfos {
+  opacity: 1;
+}
+
+.slider-img.active .NameProject {
+  display: none;
+}
+
+.slider-img.active .details p,
+.slider-img.active .details h2 {
+  display: block;
+}
+
+.divInfos {
+  opacity: 0;
+  background-color: #191818;
+  width: 100%;
+  position: absolute;
+  height: 41%;
+  bottom: -5px;
+}
+
+.divH1 {
+  width: 100%;
+}
+
+.Projetos {
+  font-family: "Jost", sans-serif;
+  font-size: 114px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+  position: relative;
+  top: 95px;
+}
+
+.jobTec {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 0px;
+}
+
+.icon-container {
+  background-color: #282424;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+  width: 63px;
+  height: 56px;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 28%);
+}
+
+.icon-container .tooltip {
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.icon-container .tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+.icon-container:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+.divnamejob {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.descriptionjob {
+  font-size: 29px;
+  width: 76%;
+  display: none;
+  margin-bottom: 20px;
+  font-weight: 900;
+  color: var(--white-color);
+  font-family: 'Chakra Petch';
+}
+
+.backgroungIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 68px;
+  background-color: #282424;
+  height: 86px;
+  width: 86px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.iconsSocial {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 0px;
+}
+
+.divIconsBtn {
+  display: flex;
+  justify-content: flex-start;
+  gap: 46px;
+}
+
+.backgroungIcon:hover {
+  border: 2px solid var(--white-color);
+  background-color: var(--white-color);
+}
+
+.backgroungIcon:hover .Icon {
+  color: var(--primary-color);
+}
+
+.repartidorCarr {
+  background-image: url(src/public/assets/img/repartidor.png);
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 93px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: -91px;
+}
+
+.card-container-projetos {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-img.active .jobTec {
+  width: 100%;
+}
+
+.slider-img.active .iconsSocial {
+  width: auto;
+}
+
+@media (max-width: 1602px) {
+  .divInfos {
+    height: 50%;
+  }
+
+  .slider-images .slider-img:nth-child(3),
+  .slider-images .slider-img:nth-child(4),
+  .slider-images .slider-img:nth-child(5) {
+    height: 640px;
+  }
+
+  .Projetos {
+    font-size: 63px;
+  }
+
+  .pontoProjeto {
+    font-size: 101px;
+    height: 59px;
+  }
+}
+
+@media (max-width: 1594px) {
+  .slider-img.active {
+    width: 81% !important;
+    height: 750px !important;
+    max-width: 766px !important
+  }
+
+  .NameProject {
+    top: 5%;
+    transform: rotate(0deg);
+    left: 26%;
+  }
+
+  .icon-container {
+    width: 48px;
+    height: 48px;
+  }
+
+  .backgroungIcon {
+    height: 70px;
+    width: 70px;
+  }
+
+  .divInfos {
+    height: 40%;
+  }
+
+  .slider-images {
+    height: 100%;
+    flex-direction: column;
+    padding: 182px 0px 45px;
+  }
+
+  .slider-images .slider-img:nth-child(1),
+  .slider-images .slider-img:nth-child(2),
+  .slider-images .slider-img:nth-child(3),
+  .slider-images .slider-img:nth-child(4),
+  .slider-images .slider-img:nth-child(5) {
+    height: 95px
+  }
+
+  .slider-images .slider-img:nth-child(1),
+  .slider-images .slider-img:nth-child(5) {
+    width: 61%;
+    max-width: 480px;
+  }
+
+  .slider-images .slider-img:nth-child(2) {
+    width: 71%;
+    max-width: 560px;
+  }
+
+  .slider-images .slider-img:nth-child(3),
+  .slider-images .slider-img:nth-child(4) {
+    width: 81%;
+    max-width: 766px;
+  }
+}
+
+@media (max-width: 836px) {
+  .Projetos {
+    font-size: 75px;
+  }
+
+  .slider-img.active {
+    height: 600px !important;
+  }
+
+  .divInfos {
+    height: 60%;
+  }
+
+  .pontoProjeto {
+    font-size: 110px;
+    height: 78px;
+  }
+}
+
+@media (max-width: 732px) {
+  .divIconsBtn {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slider-img.active .details {
+    width: 100%;
+  }
+
+  .details {
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .descriptionjob {
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 665px) {
+  .descriptionjob {
+    font-size: 17px;
+    margin-bottom: 27px;
+  }
+
+  .details h2 {
+    font-size: 18px;
+  }
+
+  .details p {
+    font-size: 18px;
+  }
+
+  .jobTec {
+    flex-wrap: wrap;
+  }
+
+  .icon-container {
+    width: 36px;
+    height: 36px;
+  }
+
+  .backgroungIcon {
+    height: 58px;
+    width: 58px;
+  }
+
+  .slider-img.active {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 508px) {
+  .Projetos {
+    font-size: 57px;
+  }
+
+  .pontoProjeto {
+    font-size: 96px;
+    height: 53px;
+  }
+
+  .slider-img.active {
+    height: 485px !important;
+  }
+
+  .NameProject {
+    left: 7%;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 490px) {
+  .NameProject {
+    left: 3%;
+  }
+
+  .pontoProjeto {
+    font-size: 80px;
+    height: 35px;
+  }
+
+  .divH1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #5c3345;
+  --secundary-color: #000000;
+  --white-color: #ffffff;
+  --gray-color1: #eae4e4;
+  --pink-color: #E91E63;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', serif;
+  background-color: var(--secundary-color);
+}
+
+h1 {
+  color: var(--white-color);
+  font-size: 1.4rem;
+  display: flex;
+  position: relative;
+}
+
+#particles canvas {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.destaqueColor {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: var(--white-color);
+  position: relative;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.8125rem;
+  margin: 0px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+    height: 2px;
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+  }
+
+  &:hover {
+    transition: transform 0.3s ease-in-out;
+    color: var(--primary-color);
+  }
+}

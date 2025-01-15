@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.myName {
+  font-family: "Inter", serif;
+  color: var(--white-color);
+  font-size: 4rem;
+  display: flex;
+  position: relative;
+  width: 500px;
+  margin: 0;
+}
+
+.containerHome {
+  padding: 5px 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.backgroundImg {
+  position: relative;
+  width: 265px;
+  height: 265px;
+  border-radius: 154px;
+  background-color: #673AB7;
+  animation: float 3s ease-in-out infinite;
+}
+
+img {
+  width: 100%;
+  position: relative;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 124px;
+  top: 8px;
+}
+
+.textHome {
+  width: 500px;
+  position: relative;
+  color: var(--white-color);
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.IconDownload {
+  font-size: 19px;
+  margin: -3px 0px;
+}
+
+.containerTextBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.divBtn {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.IconsSocial {
+  position: relative;
+  color: var(--primary-color);
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+  }
+}
+
+.Icon {
+  font-size: 24px;
+  position: relative;
+  color: var(--white-color);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.Icon:hover {
+  transform: scale(1.2);
+  color: var(--primary-color);
+}
+
+.divIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.repartidor {
+  background-image: url(src/public/assets/img/repartidor.png);
+  display: block;
+  position: absolute;
+  top: 651px;
+  left: 0;
+  width: 100%;
+  height: 93px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 970px) {
+  .containerHome {
+    padding: 70px 0px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .myName {
+    text-align: center;
+  }
+
+  .divBtn {
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .repartidor {
+    top: 1000px;
+  }
+}
+
+@media (max-width: 663px) {
+  .myName {
+    width: 90%;
+  }
+
+  .containerTextBtn {
+    align-items: center;
+  }
+}
+
+@media (max-width: 590px) {
+  .myName {
+    font-size: 2.40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .repartidor {
+    top: 919px;
+  }
+
+  .textHome {
+    width: 80%
+  }
+
+  .typewriter-container {
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 522px) {
+  .repartidor {
+    top: 982px;
+  }
+}
+
+@media (max-width: 420px) {
+  .myName {
+    font-size: 2rem;
+    width: 90%
+  }
+
+  .textHome {
+    font-size: 0.9rem;
+  }
+
+  .backgroundImg {
+    width: 166px;
+    height: 166px;
+    border-radius: 193px;
+  }
+
+  .repartidor {
+    top: 814px;
+  }
+
+  .divBtn {
+    flex-wrap: wrap;
+  }
+
+  .containerHome {
+    padding: 30px 0px;
+  }
+}
