@@ -23,7 +23,7 @@ export const Projetos = (): JSX.Element => {
 
   const images = [
     {
-      src: "src/public/assets/img/anotacoes.png",
+      src: "/assets/img/anotacoes.png",
       name: "Anotation",
       job: "Front-End",
       git: "https://github.com/Alonsogio/desafio-tecnico-speedio",
@@ -36,7 +36,7 @@ export const Projetos = (): JSX.Element => {
       ]
     },
     {
-      src: "src/public/assets/img/Burguer.png",
+      src: "/assets/img/Burguer.png",
       name: "Buguer",
       job: "Front-End",
       git: "https://vercel.com/alonsogios-projects/react-entrega-hamburgueria-da-kenzie-alonsogio/7kLWr17rHDQ4M4M19T5zCzjrSvNA/source",
@@ -50,7 +50,7 @@ export const Projetos = (): JSX.Element => {
       ]
     },
     {
-      src: "src/public/assets/img/sweetcake.png",
+      src: "/assets/img/sweetcake.png",
       name: "SweetCake",
       description: "Responsive cake buying and selling web application.",
       job: "FullStack",
@@ -64,7 +64,7 @@ export const Projetos = (): JSX.Element => {
       ]
     },
     {
-      src: "src/public/assets/img/nukenzie.png",
+      src: "/assets/img/nukenzie.png",
       name: "NuKenzie",
       job: "Front-End",
       git: "https://vercel.com/alonsogios-projects/react-entrega-s1-nu-kenzie-alonsogio/Ak1D8rFLgNh2kFsAkgk5p424ytwv/source",
@@ -77,7 +77,7 @@ export const Projetos = (): JSX.Element => {
       ]
     },
     {
-      src: "src/public/assets/img/kenzieHub.png",
+      src: "/assets/img/kenzieHub.png",
       name: "KenzieHub",
       job: "Front-End",
       git: "https://vercel.com/alonsogios-projects/react-entrega-kenzie-hub-alonsogio/3ofDDt3MtdaEJuJdMQ4HtnnEph7c/source",

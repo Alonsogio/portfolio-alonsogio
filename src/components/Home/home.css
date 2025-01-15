@@ -107,7 +107,7 @@ img {
 }
 
 .repartidor {
-  background-image: url(src/public/assets/img/repartidor.png);
+  background-image: url(/assets/img/repartidor.png);
   display: block;
   position: absolute;
   top: 651px;
