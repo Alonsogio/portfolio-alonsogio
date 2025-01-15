@@ -23,7 +23,7 @@ export const Projetos = (): JSX.Element => {
 
   const images = [
     {
-      src: "https://imgur.com/eveKDfI",
+      src: "https://imgur.com/eveKDfI.png",
       name: "Anotation",
       job: "Front-End",
       git: "https://github.com/Alonsogio/desafio-tecnico-speedio",
@@ -36,7 +36,7 @@ export const Projetos = (): JSX.Element => {
       ]
     },
     {
-      src: "https://imgur.com/izoXwgO",
+      src: "https://imgur.com/izoXwgO.png",
       name: "Buguer",
       job: "Front-End",
       git: "https://vercel.com/alonsogios-projects/react-entrega-hamburgueria-da-kenzie-alonsogio/7kLWr17rHDQ4M4M19T5zCzjrSvNA/source",
@@ -50,7 +50,7 @@ export const Projetos = (): JSX.Element => {
       ]
     },
     {
-      src: "https://imgur.com/EcKkI44",
+      src: "https://imgur.com/EcKkI44.png",
       name: "SweetCake",
       description: "Responsive cake buying and selling web application.",
       job: "FullStack",
@@ -64,7 +64,7 @@ export const Projetos = (): JSX.Element => {
       ]
     },
     {
-      src: "https://imgur.com/rS7WYQs",
+      src: "https://imgur.com/rS7WYQs.png",
       name: "NuKenzie",
       job: "Front-End",
       git: "https://vercel.com/alonsogios-projects/react-entrega-s1-nu-kenzie-alonsogio/Ak1D8rFLgNh2kFsAkgk5p424ytwv/source",
@@ -77,7 +77,7 @@ export const Projetos = (): JSX.Element => {
       ]
     },
     {
-      src: "https://imgur.com/DGqbSYV",
+      src: "https://imgur.com/DGqbSYV.png",
       name: "KenzieHub",
       job: "Front-End",
       git: "https://vercel.com/alonsogios-projects/react-entrega-kenzie-hub-alonsogio/3ofDDt3MtdaEJuJdMQ4HtnnEph7c/source",
