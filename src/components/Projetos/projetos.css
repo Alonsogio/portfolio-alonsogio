@@ -1,5 +1,5 @@
 .container-projects {
-  background-image: url(https://imgur.com/cCM45jV.png);
+  background-image: url(https://imgur.com/cCM45jV);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -267,7 +267,7 @@
 }
 
 .repartidorCarr {
-  background-image: url(https://imgur.com/inQlFYX.png);
+  background-image: url(https://imgur.com/inQlFYX);
   display: block;
   position: absolute;
   left: 0;
