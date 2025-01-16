@@ -1,8 +1,9 @@
 .container-contact {
-  background-color: var(--white-color);
+  background-color: #1a1c1e;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-top: 1px solid var(--gray-color1);
 }
 
 .divH1P {
@@ -19,16 +20,22 @@
   width: 100%;
   max-width: 900px;
   flex-direction: row-reverse;
+  padding: 14px;
+  background-color: var(--secundary-color);
+  border-radius: 15px;
 }
 
 .formDiv {
   display: flex;
   flex-direction: column;
   gap: 13px;
+  background-color: var(--secundary-color);
+  padding: 33px;
+  border-radius: 15px;
 }
 
 .title {
-  color: var(--primary-color);
+  color: var(--pink-color);
   font-size: 2.75rem;
   line-height: 100.5%;
   margin: 0px;
@@ -36,7 +43,7 @@
 }
 
 .StyleBtnForm {
-  background-color: var(--primary-color);
+  background-color: var(--pink-color);
   padding: 1rem 2.5rem;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%);
   border: none;
@@ -70,6 +77,7 @@
 
 .divH1P p {
   text-align: center;
+  color: var(--white-color);
 }
 
 .imgContact {
@@ -77,7 +85,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 50%;
+  width: 40%;
   border-radius: 15px;
 }
 
@@ -106,5 +114,12 @@
   #form {
     justify-content: center;
     padding: 152px 0px 83px;
+    background-color: #1a1c1e;
+  }
+}
+
+@media (max-width: 508px) {
+  #form {
+    gap: 0;
   }
 }

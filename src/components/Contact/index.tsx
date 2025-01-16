@@ -9,7 +9,7 @@ import './contact.css';
 
 const sharedStyles = {
   '& .MuiOutlinedInput-root': {
-    backgroundColor: '#ffffff',
+    backgroundColor: '#1a1c1e',
     borderRadius: '8px',
     '&:hover fieldset': {
       borderColor: 'black',
@@ -19,13 +19,13 @@ const sharedStyles = {
     },
   },
   '& .MuiInputLabel-root': {
-    color: 'black',
+    color: '#ffffff',
   },
   '& .MuiInputLabel-root.Mui-focused': {
-    color: 'black',
+    color: '#ffffff',
   },
   '& .MuiOutlinedInput-input': {
-    color: 'black',
+    color: '#ffffff',
   },
   '& .MuiFormLabel-asterisk': {
     color: 'var(--pink-color)',
@@ -113,7 +113,7 @@ export const ContactForm = () => {
                 InputProps={{
                   startAdornment: (
                     <InputAdornment position="start">
-                      <GoPerson />
+                      <GoPerson style={{ color: '#ffffff' }} />
                     </InputAdornment>
                   ),
                 }}
@@ -130,7 +130,7 @@ export const ContactForm = () => {
                 InputProps={{
                   startAdornment: (
                     <InputAdornment position="start">
-                      <GoPerson />
+                      <GoPerson style={{ color: '#ffffff' }} />
                     </InputAdornment>
                   ),
                 }}
@@ -150,7 +150,7 @@ export const ContactForm = () => {
                 InputProps={{
                   startAdornment: (
                     <InputAdornment position="start">
-                      <MdOutlineMailOutline />
+                      <MdOutlineMailOutline style={{ color: '#ffffff' }} />
                     </InputAdornment>
                   ),
                 }}
@@ -168,7 +168,7 @@ export const ContactForm = () => {
                 InputProps={{
                   startAdornment: (
                     <InputAdornment position="start">
-                      <IoMdPhonePortrait />
+                      <IoMdPhonePortrait style={{ color: '#ffffff' }} />
                     </InputAdornment>
                   ),
                 }}

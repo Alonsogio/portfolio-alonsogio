@@ -164,7 +164,7 @@ export const Projetos = (): JSX.Element => {
           </div>
         </section>
       </motion.div>
-      <div className='repartidorCarr'></div>
+      {/* <div className='repartidorCarr'></div> */}
     </div>
   );
 };
