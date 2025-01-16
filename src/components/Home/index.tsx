@@ -45,7 +45,7 @@ export const Home = (): JSX.Element => {
         <div className='divBtn'>
           <a
             className='StyleBtn'
-            href='/assets/CvGiovannaNew.pdf'
+            href='CvGiovannaNew.pdf'
             download="CvGiovannaNew">
             DOWNLOAD CV
             <HiOutlineDownload
