@@ -198,11 +198,29 @@ img {
     top: 814px;
   }
 
+  /* .divBtn {
+    flex-wrap: wrap;
+  } */
+
+  .containerHome {
+    padding: 30px 0px;
+  }
+}
+
+@media (max-width: 334px) {
+  .typewriter-container {
+    font-size: 25px !important;
+  }
+
   .divBtn {
     flex-wrap: wrap;
   }
 
-  .containerHome {
-    padding: 30px 0px;
+  .myName {
+    font-size: 1.6rem;
+  }
+
+  .repartidor {
+    top: 837px;
   }
 }
