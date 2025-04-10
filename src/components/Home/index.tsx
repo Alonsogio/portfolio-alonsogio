@@ -71,7 +71,14 @@ export const Home = (): JSX.Element => {
         </div>
       </div>
       <div className='backgroundImg'>
-        <img src="https://i.imgur.com/HygQr6n.png" alt="" />
+        <div className="flip-card-inner">
+          <div className="flip-card-front">
+            <img src="https://i.imgur.com/HygQr6n.png" alt="" />
+          </div>
+          <div className="flip-card-back">
+            <img src="https://i.imgur.com/HCEpM4D.png" alt="" />
+          </div>
+        </div>
       </div>
       <div className='repartidor'></div>
     </div>

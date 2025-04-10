@@ -1,8 +1,9 @@
 import './skills.css';
 import { motion } from 'framer-motion';
 import CardSkills from '../CardSkills';
-import { FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaReact, FaGit, FaPython, FaAngular, FaVuejs } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaReact, FaGit, FaPython, FaAngular, FaVuejs, FaPhp, FaLaravel } from "react-icons/fa";
 import { SiTypescript, SiDjango, SiPostgresql, SiPrisma, SiChakraui, SiZod, SiExpress, SiRedux } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
 import { TbBrandNextjs } from "react-icons/tb";
 
 export const Skills = (): JSX.Element => {
@@ -25,6 +26,9 @@ export const Skills = (): JSX.Element => {
     { icon: <SiExpress />, text: "Express", percentage: 70 },
     { icon: <FaVuejs />, text: "Vue.js", percentage: 70 },
     { icon: <SiRedux />, text: "Redux", percentage: 60 },
+    { icon: <FaPhp />, text: "PHP", percentage: 70 },
+    { icon: <FaLaravel />, text: "Laravel", percentage: 60 },
+    { icon: <GrMysql />, text: "MySQL", percentage: 60 },
   ];
 
   return (
