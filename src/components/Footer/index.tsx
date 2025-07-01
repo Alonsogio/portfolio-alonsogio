@@ -15,7 +15,7 @@ export const Footer = (): JSX.Element => {
       <footer>
         <div className="divH1PImg">
           <div className='backgroundImgFooter'>
-            <img className="imgFooter" src="https://i.imgur.com/ZnWZk80.png" />
+            <img className="imgFooter" src="https://i.imgur.com/D8ViwPS.png" />
           </div>
           <div className="H1andP">
             <h1 className='textH1'>

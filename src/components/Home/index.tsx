@@ -76,7 +76,7 @@ export const Home = (): JSX.Element => {
             <img src="https://i.imgur.com/HygQr6n.png" alt="" />
           </div>
           <div className="flip-card-back">
-            <img src="https://i.imgur.com/ZnWZk80.png" alt="" />
+            <img src="https://i.imgur.com/D8ViwPS.png" alt="" />
           </div>
         </div>
       </div>
