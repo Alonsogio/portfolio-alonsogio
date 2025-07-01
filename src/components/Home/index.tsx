@@ -45,7 +45,7 @@ export const Home = (): JSX.Element => {
         <div className='divBtn'>
           <a
             className='StyleBtn'
-            href='https://drive.usercontent.google.com/u/0/uc?id=1dGFuFE_1UlO0kxSi8E8mAvxNWtR6ejE1&export=download'
+            href='https://drive.usercontent.google.com/u/0/uc?id=1Wh6zDbRcdDTxhijp0PYpNmZ6BOSXrkdP&export=download'
             download="CvGiovannaNew">
             DOWNLOAD CV
             <HiOutlineDownload
@@ -76,7 +76,7 @@ export const Home = (): JSX.Element => {
             <img src="https://i.imgur.com/HygQr6n.png" alt="" />
           </div>
           <div className="flip-card-back">
-            <img src="https://i.imgur.com/HCEpM4D.png" alt="" />
+            <img src="https://i.imgur.com/ZnWZk80.png" alt="" />
           </div>
         </div>
       </div>
