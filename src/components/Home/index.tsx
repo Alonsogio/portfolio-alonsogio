@@ -45,7 +45,7 @@ export const Home = (): JSX.Element => {
         <div className='divBtn'>
           <a
             className='StyleBtn'
-            href='https://drive.usercontent.google.com/u/0/uc?id=1Wh6zDbRcdDTxhijp0PYpNmZ6BOSXrkdP&export=download'
+            href='https://drive.usercontent.google.com/u/0/uc?id=1elpJaNRbLGiQKklp0o6eUsaHXoemj2pn&export=download'
             download="CvGiovannaNew">
             DOWNLOAD CV
             <HiOutlineDownload
